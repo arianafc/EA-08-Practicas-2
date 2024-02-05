@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <!-- Aqui utilizo los formularios -->
+    <link href="estilos/estilos.css" rel="stylesheet" type="text/css"/>
+    <head>
+        <title class="title">Distribuidora El Legado de Mis Padres</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header class="header-principal">
+            <nav class="nav-menu">
+                <a class="nav-menu-item" href="Preguntas.html">Contáctanos |</a>
+                <a class="nav-menu-item" href="Productos.html">Productos |</a>
+                <a class="nav-menu-item" href="Recetas.html">Recetas |</a>
+                <a href="inicio.html">
+                    <img src="img/logo2 (1).png" height="130" width="250" alt="El Legado de Mis Padres"/></a>
+                <a class="nav-menu-item" href="QuienesSomos.html">Nosotros |</a>
+                <a class="nav-menu-item" href="Empleos.html">Empleos |</a>
+                <a class="nav-menu-item" href="Testimonios.html">Testimonios</a>
+                <hr><!-- comment -->
+            </nav>
+        </header>
+
+        <aside class="aside-contacto">
+            <img class="img-aside" src="img/aside-contacto.jpg" />
+        </aside>
+        <section class="section-contenido">
+            <article>
+                <p></p>
+                <div class="div-formulario">
+                    <header class="encabezado-form">¿Tienes preguntas? ¡Contáctanos para obtener más información!</header>
+                    <p></p>
+                    <form id="formulario" action="#">
+                        <table border="0" cellspacing="20" cellpadding="5">                        
+                            <tbody>
+                                <tr>
+                                    <td>Nombre</td>
+                                    <td><input type="text" name="nombre" placeholder="Nombre"
+                                               size="15"/></td>
+                                    <td>Apellido</td>
+                                    <td><input type="text" name="apellido" placeholder="Nombre Apellido"
+                                               size="15"/></td>
+                                    <td>Correo Electrónicoo</td>
+                                    <td><input type="email" 
+                                               name="email" placeholder="Correo Electrónico" 
+                                               size="25"/></td> <!--limita a 25 caracteres-->
+                                </tr>
+                                <tr>
+                                    <td>Local</td>
+                                    <td><select name="nivel">
+                                            <option value="0">El Tejar</option>
+                                            <option value="1">La Cangreja</option>
+                                            <option value="2">Aguacaliente</option>
+                                        </select></td>
+                                    <td>Teléfono</td>
+                                    <td><input type="tel" name="telefono" placeholder="Núm. Teléfono"
+                                               size="15"/></td>
+                                    
+                                    <td>Fecha de la consulta</td>
+                                    <td><input type="date" name="fecha" size="25">
+                                    </td>
+                                </tr>
+                                </tr>
+                                <tr>
+                                    <td>Consulta</td>
+                                    <td><textarea name="consulta" rows="4" cols="17"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="reset" value="Limpiar"/>
+                                    </td>
+                                    <td><input type="submit" value="Enviar"/></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </form>
+                </div>
+                <div>
+                     <header class="encabezado-form">Encuéntranos en Google Maps</header>
+                     <p></p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d875.6707204559563!2d-83.96575073487467!3d9.79744054585484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa11fa857428739%3A0xeb395fa5fd6699ec!2sIglesia%20La%20Cangreja!5e0!3m2!1ses-419!2scr!4v1707084140637!5m2!1ses-419!2scr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </article>
+        </section>
+        <footer class="footer">
+            <div class="redes-footer">
+                <a href="https://www.instagram.com/ellegadodemispadrescr?igsh=ZDRpZXRzOHUyMWJh"><img src="img/instagram.png" alt="instagram"/></a>
+            </div>
+            <div>
+                <h4 class="referencias">Derechos Reservados El Legado De Mis Padres &COPY; 2024</h4>
+            </div>
+            <div>
+                <a class="referencias" href="QuienesSomos.html"><h4>Nosotros</h4></a>
+            </div>
+        </footer>
+    </body>
+</html>
